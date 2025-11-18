@@ -2,7 +2,6 @@
 
 Analyze customer shopping behavior to uncover spending trends, product performance, and loyalty patterns using Python, SQL, and Power BI.
 
----
 
 ## 📁 Project Overview
 
@@ -15,7 +14,6 @@ This project analyzes **3,900 customer transactions (18 features)** to answer:
 - How do discounts, subscriptions, and shipping type affect spend?
 - Which segments should the business target for marketing and promotions?
 
----
 
 ## 📊 Dataset Summary
 
@@ -27,7 +25,6 @@ This project analyzes **3,900 customer transactions (18 features)** to answer:
   - **Behavior:** `discount_applied`, `promo_code_used`, `previous_purchases`, `frequency`, `review_rating`, `shipping_type`
 - **Missing Values:** 37 missing entries in `review_rating` (handled in preprocessing)
 
----
 
 ## 🧰 Tech Stack
 
@@ -35,7 +32,6 @@ This project analyzes **3,900 customer transactions (18 features)** to answer:
 - **Database:** PostgreSQL (SQL analysis)
 - **BI Tool:** Power BI (interactive dashboard)
 
----
 
 ## 🗂 Repository Structure
 
