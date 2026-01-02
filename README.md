@@ -28,7 +28,7 @@ This project analyzes **3,900 customer transactions (18 features)** to answer:
 
 ## 🧰 Tech Stack
 
-- **Language:** Python (pandas, numpy, matplotlib/seaborn, sqlalchemy/psycopg2)
+- **Language:** Python (pandas, numpy, matplotlib, sqlalchemy/psycopg2)
 - **Database:** PostgreSQL (SQL analysis)
 - **BI Tool:** Power BI (interactive dashboard)
 
