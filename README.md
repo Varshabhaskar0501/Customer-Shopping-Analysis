@@ -1,44 +1,43 @@
-# Customer Shopping Analysis 🛒📊
+# 🛒 Customer Shopping Analysis Dashboard
 
-Analyze customer shopping behavior to uncover spending trends, product performance, and loyalty patterns using Python, SQL, and Power BI.
-
-
-## 📁 Project Overview
-
-A retail company wants to understand **what drives customer purchases** so they can boost sales and improve loyalty programs.
-
-This project analyzes **3,900 customer transactions (18 features)** to answer:
-
-- Who are the most valuable customers?
-- Which products and categories drive revenue?
-- How do discounts, subscriptions, and shipping type affect spend?
-- Which segments should the business target for marketing and promotions?
+An interactive Power BI dashboard that analyzes customer shopping behavior, sales performance, and purchasing trends to provide actionable business insights. The dashboard helps businesses understand customer preferences, identify high-performing products, and support data-driven decision-making.
 
 
-## 📊 Dataset Summary
+## 📌 Overview
 
-- **Rows:** 3,900  
-- **Columns:** 18  
-- **Key Features:**
-  - **Demographics:** `age`, `gender`, `location`, `subscription_status`
-  - **Purchase Info:** `item_purchased`, `category`, `purchase_amount`, `season`, `size`, `color`
-  - **Behavior:** `discount_applied`, `promo_code_used`, `previous_purchases`, `frequency`, `review_rating`, `shipping_type`
-- **Missing Values:** 37 missing entries in `review_rating` (handled in preprocessing)
+This project focuses on analyzing customer shopping transaction data using Power BI. It transforms raw transactional data into meaningful visualizations and key performance indicators (KPIs), enabling businesses to monitor sales performance, customer behavior, and product trends.
 
 
-## 🧰 Tech Stack
+## 🛠️ Tools & Technologies
 
-- **Language:** Python (pandas, numpy, matplotlib, sqlalchemy/psycopg2)
-- **Database:** PostgreSQL (SQL analysis)
-- **BI Tool:** Power BI (interactive dashboard)
+- **Microsoft Power BI**
+- **Power Query**
+- **DAX (Data Analysis Expressions)**
 
 
-## 🗂 Repository Structure
 
-```bash
-.
-├── customer_shopping_data.csv          # Raw dataset
-├── customer_shopping_analysis.ipynb    # Python EDA & preprocessing
-├── customer_shopping_analysis.sql      # SQL queries for business questions
-├── customer_shopping_analysis.pbix     # Power BI dashboard
-└── README.md                           # Project documentation
+## 📊 Dashboard Features
+
+- 📈 Sales Performance Overview
+- 👥 Customer Segmentation
+- 🛍️ Product Performance Analysis
+- 💰 Revenue and Profit Analysis
+- 🎯 Discount Impact Analysis
+- 💳 Payment Method Distribution
+- 📅 Time-based Sales Trends
+- 🎛️ Interactive Filters and Slicers
+
+
+## 📈 Insights
+
+- Identified customer purchasing patterns across different product categories.
+- Analyzed sales trends over time.
+- Determined top-performing products based on revenue.
+- Evaluated how discounts influenced purchasing behavior.
+- Compared payment methods to understand customer preferences.
+
+
+
+
+
+
